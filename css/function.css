@@ -1,0 +1,38 @@
+@charset "utf-8";
+body,button,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,hr,input,li,ol,p,pre,td,textarea,th,ul{margin: 0;padding: 0;list-style: none;text-decoration: none;} 	/*reset*/
+body{width: 100%;height: 100%;background-color:#000;min-width: 1200px;
+	font-family:'MicrosoftYaHei Regular','Microsoft YaHei';font-size: 15px;color: #fff;overflow: hidden;}
+a{text-decoration: none;}
+video{position: fixed;}
+
+/*head*/
+.head{width: 100%;height: 121px;min-width: 1200px;position: fixed;top: 0;
+		left: 0;background-color:rgba(0,0,0,0.50);z-index: 999999;}
+.head-con{width: 100%; position: absolute;top: 2px;left: 0;
+			background-image: url(../images/dian.png);background-repeat: repeat-x;}
+.head-l{float: left;padding: 33px 0 33px 56px;}
+.head-l .logo{vertical-align: middle;}
+.logo-d{font-size: 30px;width: 10px;height:10px;margin-bottom: 50px;padding: 0 5px;}
+.logo-t{font-size: 12px;}
+.head-r .nav-ul{padding: 42px 100px 41px 0;}
+.nav-ul li{width: 104px;height: 38px;float: right;
+			text-align: center;line-height: 38px;}
+.nav-ul li a{color: #FFFFFF;width: 104px;height: 38px;display: block;}
+.nav-ul li a:hover{background: rgba(255,255,255,0.1);border-radius: 5px;border: 1px 			solid  rgba(255,255,255,0.5);}
+
+/*function-content*/
+.funcs{width: 1920px;height: 1000px;}
+.funcs-title{position: fixed;top:140px;left: 50px;}
+.funcs-w{position: absolute;top: -125px;left: 50%;margin-left: -594px;
+			width: 1188px;height: 1371px;background-image: url(../images/m_bg2.png);}
+.funcs-ul{width: 988px;height: 988px;margin:230px auto 0;}
+.funcs-ul li{float: left;width: 246px;text-align: center;border-right: 1px solid 		rgba(255,255,255,0.15);border-bottom: 1px solid rgba(255,255,255,0.15);}
+.funcs-ul li a{display:block;padding: 40px 0 30px 0; text-decoration: none;color: #FFFFFF;}
+.funcs-ul .funcs-logo3p{padding-top: 16px;}
+.funcs-ul .funcs-logo4-li{border-right:1px solid rgba(255,255,255,0);}
+.funcs-ul .funcs-logo5p{padding-top: 16px;}
+.funcs-ul .funcs-logo8-li{border-right:1px solid rgba(255,255,255,0);}
+.funcs-ul .b{border-bottom: none;}
+.funcs-ul .rb{border-bottom: none;border-right: none;}
+.funcs-ul .funcs-logo10p{padding-top: 16px;}
+
